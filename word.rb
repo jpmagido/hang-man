@@ -1,11 +1,12 @@
 class Word
   attr_reader :word
-  attr_accessor :crypted_word, :letter
+  attr_accessor :crypted_word, :letter, :wrong_letters
 
   def initialize
-    @word = 'bitte'
+    @word = %w(bite promenade bateau citerne soleil maison poteau vigne salade marcher avion salopette).sample
     @crypted_word = create_crypted_word
     @letter = ''
+    @wrong_letters = []
   end
 
   def create_crypted_word
@@ -37,6 +38,7 @@ class Word
       puts gets.chomp
       true
     else
+      @wrong_letters << @letter
       puts "Oups, le '#{@letter}' n'est pas présent dans le mot"
       print 'Appuies sur Entrer > '
       puts gets.chomp

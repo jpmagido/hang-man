@@ -17,6 +17,8 @@ class Game
       system('clear')
       @scaffold.display
       print 'Le mot: ', @word.crypted_word.values.map(&:first)
+      puts ''
+      print "Vous avez essayé #{@word.wrong_letters.inspect}"
       @dialogs.letter_choice
       unless @word.guess_letter
         @scaffold.level_up

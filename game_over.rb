@@ -5,7 +5,7 @@ class GameOver
     print '>'
     answer = gets.chomp
     if answer == 'y'
-      Game.new.start
+      Game.perform
     else
       puts 'A bientôt...'
       exit
@@ -18,7 +18,7 @@ class GameOver
     print '>'
     answer = gets.chomp
     if answer == 'y'
-      Game.new.perform
+      Game.perform
     else
       puts 'A bientôt...'
       exit
