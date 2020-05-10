@@ -20,9 +20,7 @@ class Game
       puts ''
       print "Vous avez essayé #{@word.wrong_letters.inspect}"
       @dialogs.letter_choice
-      unless @word.guess_letter
-        @scaffold.level_up
-      end
+      @scaffold.level_up unless @word.guess_letter
       @game_over.you_won unless @word.crypted_word.values.map(&:first).include?('_ ')
     end
     @game_over.you_lose
