@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f353c488-45b4-4356-a872-6efa49eee64e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f353c488-45b4-4356-a872-6efa49eee64e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588986277718</updated>
       <workItem from="1588986279284" duration="19665000" />
-      <workItem from="1589127111899" duration="1093000" />
+      <workItem from="1589127111899" duration="2322000" />
     </task>
     <servers />
   </component>
@@ -67,13 +65,13 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="375" y="83" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1589126918938" />
-    <state x="376" y="202" width="687" height="518" key="find.popup" timestamp="1589126532023">
+    <state x="376" y="202" width="687" height="518" key="find.popup" timestamp="1589129039846">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="376" y="202" width="687" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589126532023" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589126542197">
+    <state x="376" y="202" width="687" height="518" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1589129039846" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1589129034487">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589126542197" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1589129034487" />
   </component>
 </project>

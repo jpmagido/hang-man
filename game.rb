@@ -1,7 +1,7 @@
-require './word.rb'
-require './scaffold.rb'
-require './dialog.rb'
-require './game_over.rb'
+require './lib/word.rb'
+require './lib/scaffold.rb'
+require './lib/dialog.rb'
+require './lib/game_over.rb'
 
 class Game
 
