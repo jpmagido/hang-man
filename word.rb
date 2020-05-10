@@ -18,8 +18,10 @@ class Word
   def letter_correct?
     if @word.include?(@letter)
       update_crypted_word
+      true
     else
       update_wrong_letters
+      false
     end
   end
 
@@ -41,7 +43,6 @@ class Word
     puts "Oups, le '#{@letter}' n'est pas présent dans le mot"
     print 'Appuies sur Entrer > '
     puts gets.chomp
-    false
   end
 
   def update_crypted_word
@@ -53,6 +54,5 @@ class Word
     puts "Bien joué, vous avez trouvé le '#{@letter}'"
     print 'Appuies sur Entrer > '
     puts gets.chomp
-    true
   end
 end
